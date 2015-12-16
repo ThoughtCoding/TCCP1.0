@@ -1,0 +1,264 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>ThoughtCoding实验室添加用户</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="css/add-user.css">
+		
+		 <link rel="stylesheet" href="css/font-awesome.min.css">
+		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+        <link rel="stylesheet" href="css/main.css">
+
+		<link href='http://fonts.useso.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	
+		<link href='http://fonts.useso.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+	
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+	</head>
+
+<body>
+	<div class="header">
+    <img src="images/icon.png" alt="icon" class="icon" id="logoPicture">
+		<h1>ThoughtCoding实验室后台管理系统</h1>
+
+		<div class="navigation">
+			<ul>
+				<img src="images/usericon.png" alt="user icon" class="user-icon">
+				<li>欢迎您！</li>
+			  <li>李林威&nbsp;
+					<ul>
+						<li><a href="#">个人中心</a></li>
+						<li><a href="#">退出</a></li>
+					</ul>
+				</li>
+			</ul> 
+		</div>
+	</div>
+
+	<div id="content">
+		<!-- 左边 -->
+		<div class="left_menu">
+      <ul id="nav_dot">
+      	<li><br><br>
+          <h4 class="M1"><span></span><a href="">群博</a></h4>
+        </li>
+        <li>
+          <h4 class="M2"><span></span>简历</h4>
+          <div class="list-item none">
+            <a href=''>查看简历</a>
+            <a href=''>上传简历</a>  
+           </div>
+        </li>
+        <li>
+          <h4 class="M3"><span></span><a href="">分享</a></h4>
+        </li>
+        <li>
+          <h4 class="M4"><span></span><a href="">资金</a></h4>
+        </li>
+        <li>
+          <h4 class="M5"><span></span><a href="">书籍</a></h4>
+        </li>
+        <li>
+          <h4  class="M6"><span></span><a href="">项目</a></h4>
+        </li>
+        <li>
+        	<br>
+        </li>
+
+        <li>
+          <h4  class="M7"><span></span>管理员</h4>
+          <div class="list-item none">
+            <a href=''>增加用户</a>
+            <a href=''>删除用户</a>
+            <a href=''>权限移交</a>
+          </div>
+        </li>   
+			</ul>
+		</div>
+		<!-- 中间 -->
+		<div class="main">
+			<!-- web组 -->
+			<div id="og-grid" class="og-grid web_team">
+					<li class="mix web">
+						<a href="add_web.html" style="width:100%; height:100%">
+							<img src="images/html1.jpg" alt="html" style="height:100%; width:100%;">
+							<div class="hover-mask">
+								<h3>Web组</h3>
+								<span>
+									<i class="fa fa-plus fa-5x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					
+			</div>
+			<!-- 安卓组 -->
+			<div id="og-grid" class="og-grid android_team">
+					<li class="mix web">
+						<a href="add_android.html" style="width:100%; height:100%">
+							<img src="images/android1.jpg" alt="html" style="height:100%; width:100%;">
+							<div class="hover-mask">
+								<h3>Android组</h3>
+								<span>
+									<i class="fa fa-plus fa-5x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					
+			</div>
+			<!-- 嵌入式组 -->
+			<div id="og-grid" class="og-grid flushbonading_team">
+					<li class="mix web">
+						<a href="add_flushbonading.html" style="width:100%; height:100%">
+							<img src="images/flushbonading1.jpg" alt="html" style="height:100%; width:100%;">
+							<div class="hover-mask">
+								<h3>嵌入式组</h3>
+								<span>
+									<i class="fa fa-plus fa-5x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					
+			</div>
+			<!-- 大数据组 -->
+			<div id="og-grid" class="og-grid  big_data_team">
+					<li class="mix web">
+						<a href="add_big_data.html" style="width:100%; height:100%">
+							<img src="images/big_data.jpg" alt="html" style="height:100%; width:100%;">
+							<div class="hover-mask">
+								<h3>大数据组</h3>
+								<span>
+									<i class="fa fa-plus fa-5x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					
+			</div>
+			<!-- 其他组 -->
+			<div id="og-grid" class="og-grid  others_team">
+					<li class="mix web">
+						<a href="add_others.html" style="width:100%; height:100%">
+							<img src="images/monkey_programmer.jpg" alt="html" style="height:100%; width:100%;">
+							<div class="hover-mask">
+								<h3>其它</h3>
+								<span>
+									<i class="fa fa-plus fa-5x"></i>
+								</span>
+							</div>
+						</a>
+					</li>
+					
+			</div>
+	
+		</div>
+		<!-- 右边 -->
+		<div class="m-right">
+     	<div class="r-menu-top">
+        <h2 id="userlist" style="color:white">用户列表</h2>
+    	</div>
+
+      <div class="r-menu-content">
+        <!--用户列表!-->
+				<div class="content">
+				<a href="#"><img src="images/usericon1.jpg" alt="usericon1" ></a>
+					<ul>
+						<li><a href="#" class="fa fa-female">&nbsp&nbsp李林威</a></li>
+						<br><br>
+						<li>西安邮电大学</li>
+					</ul>								
+				</div>
+
+				<div class="content">
+				<a href="#"><img src="images/usericon2.jpg" alt="usericon1" ></a>
+						<ul>
+							<li><a href="#" class="fa fa-female">&nbsp&nbsp杨雪</a></li>
+							<br><br>
+							<li>西安邮电大学</li>
+						</ul>							
+				</div>
+
+				<div class="content">
+		      <a href="#"><img src="images/usericon3.jpg" alt="usericon1" ></a>
+		        <ul>
+             <li><a href="#" class="fa fa-male">&nbsp&nbsp张子梁</a></li>
+             <br><br>
+             <li>西安邮电大学</li>
+			</ul>		
+         </div>
+
+				<div class="content">
+					<a href="#"><img src="images/usericon4.jpg" alt="usericon1" ></a>
+						<ul>
+							<li><a href="#" class="fa fa-male">&nbsp&nbsp何佳耀</a></li>
+							<br><br>
+							<li>西安邮电大学</li>
+						</ul>		
+				</div>
+
+				<div class="content">
+					<a href="#"><img src="images/usericon5.jpg" alt="usericon1" ></a>
+						<ul>
+							<li><a href="#" class="fa fa-male">&nbsp&nbsp吉坤</a></li>
+							<br><br>
+							<li>西安邮电大学</li>
+						</ul>
+				</div>
+
+				<div class="content">
+					<a href="#"><img src="images/usericon6.jpg" alt="usericon1" ></a>
+						<ul>
+							<li><a href="#" class="fa fa-female">&nbsp&nbsp古文文</a></li>
+							<br><br>
+							<li>西安邮电大学</li>
+						</ul>		
+				</div>
+
+				<div class="content">
+					<a href="#"><img src="images/usericon7.jpg" alt="usericon1" ></a>
+						<ul>
+							<li><a href="#" class="fa fa-female">&nbsp&nbsp柏杨</a></li>
+							<br><br>
+							<li>西安邮电大学</li>
+						</ul>	
+				</div>
+			</div>
+		</div>
+		<!-- 下边 -->
+		<div class="footer">
+			<p>Copyright©  2015 版权所有 ThoughtCodeing实验室 来源:<a href="#" target="_blank">ThoughtCoding</a></p>
+		</div>
+		<script>
+		navList(12);
+		</script>
+	</body>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	 
+		<script src="js/owl.carousel.min.js"></script>
+		 
+		<script src="js/jquery.mixitup.min.js"></script>
+	 
+		<script src="js/jquery.nicescroll.min.js"></script>
+	 
+		<script src="js/jquery.appear.js"></script>
+		
+		<script src="js/tweetie.min.js"></script>
+		
+		<script src="js/jquery.nav.js"></script>
+		 
+		<script src="js/jquery.sticky.js"></script>
+		
+		<script src="js/jquery.fitvids.js"></script>
+		
+		<script src="js/custom.js"></script>
+
+</html>
